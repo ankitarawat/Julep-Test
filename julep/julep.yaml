@@ -1,0 +1,25 @@
+---
+  general: 
+    #username: ""
+    #password: ""
+    url: "https://15.114.89.3:8443/oo"
+    
+  flows: 
+    - 
+      uuid: "965fab49-2b63-4a69-b8aa-847b1f2bf779"
+      name : "Testing with input1"
+      inputs: 
+        host: "127.0.0.1"
+      assert: 
+        executionSummary: 
+          resultStatusType: "RESOLVED"
+
+    - 
+      uuid: "965fab49-2b63-4a69-b8aa-847b1f2bf779"
+      name : "Testing with input 2"
+      inputs: 
+        host: "localhost"
+      assert: 
+        executionSummary: 
+          resultStatusType: "RESOLVED"
+

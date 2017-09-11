@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<testsuites errors="0" failures="0" tests="2" time="6.894">
+	<testsuite errors="0" failures="0" name="ootests" skipped="0" tests="2" time="6.894">
+		<testcase classname="965fab49-2b63-4a69-b8aa-847b1f2bf779" name="Testing with input1 112000636" time="3.471000">
+			<system-out>RESOLVED</system-out>
+		</testcase>
+		<testcase classname="965fab49-2b63-4a69-b8aa-847b1f2bf779" name="Testing with input 2 112000646" time="3.423000">
+			<system-out>RESOLVED</system-out>
+		</testcase>
+	</testsuite>
+</testsuites>

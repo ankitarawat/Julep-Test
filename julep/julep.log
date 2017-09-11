@@ -1,0 +1,252 @@
+08-22 17:02 root         INFO     Want some blacksea julep?
+08-22 17:04 root         INFO     Want some blacksea julep?
+08-22 17:06 root         INFO     Want some blacksea julep?
+08-22 17:06 root         INFO     Want some blacksea julep?
+08-22 17:06 root         INFO     Want some blacksea julep?
+08-22 17:06 root         DEBUG    ---
+  general: 
+    username: "admin"
+    password: "admin"
+    url: "https://15.114.89.3:8443/oo"
+  flows: 
+    - 
+      uuid: "965fab49-2b63-4a69-b8aa-847b1f2bf779"
+      name : "Testing if flow will fail"
+      inputs: 
+        fail: "true"
+        req: "asdf"
+      assert: 
+        flowOutput: 
+          var1: "var1"
+          var2: "var2"
+        executionSummary: 
+          resultStatusType: "ERROR"
+    - 
+      
+08-22 17:07 root         INFO     Want some blacksea julep?
+08-22 17:09 root         INFO     Want some blacksea julep?
+08-22 17:20 root         INFO     Want some blacksea julep?
+08-22 17:22 root         INFO     Want some blacksea julep?
+08-22 17:22 root         INFO     Want some blacksea julep?
+08-22 18:01 root         INFO     Want some blacksea julep?
+08-22 18:01 root         INFO     Entering run_flow
+08-22 19:59 root         INFO     Want some blacksea julep?
+08-22 19:59 root         INFO     Entering run_flow
+08-23 13:39 root         INFO     Want some blacksea julep?
+08-23 13:39 root         INFO     Entering run_flow
+08-23 13:41 root         INFO     Want some blacksea julep?
+08-23 13:41 root         INFO     Entering run_flow
+08-23 14:36 root         INFO     Want some blacksea julep?
+08-23 14:36 root         INFO     Entering run_flow
+08-23 14:38 root         INFO     Want some blacksea julep?
+08-23 14:38 root         INFO     Entering run_flow
+08-23 14:53 root         INFO     Want some blacksea julep?
+08-23 14:53 root         INFO     Entering run_flow
+08-23 15:01 root         INFO     Want some blacksea julep?
+08-23 15:01 root         INFO     Entering run_flow
+08-23 15:03 root         INFO     Want some blacksea julep?
+08-23 15:03 root         INFO     Entering run_flow
+08-23 15:05 root         INFO     Want some blacksea julep?
+08-23 15:05 root         INFO     Want some blacksea julep?
+08-23 15:05 root         INFO     Entering run_flow
+08-23 15:05 root         INFO     sleeping between runs for 15 secs
+08-23 15:06 root         INFO     Entering run_flow
+08-23 15:06 root         INFO     sleeping between runs for 15 secs
+08-23 15:06 root         INFO     Entering run_flow
+08-23 15:06 root         INFO     sleeping between runs for 15 secs
+08-23 15:06 root         INFO     Entering run_flow
+08-23 15:06 root         INFO     sleeping between runs for 15 secs
+08-23 15:07 root         INFO     Tracking testcases in running state
+08-23 15:07 root         INFO     Waiting 120 seconds for next heartbeat
+08-23 15:09 root         INFO     Tracking testcases in running state
+08-23 15:09 root         INFO     Waiting 120 seconds for next heartbeat
+08-23 15:11 root         INFO     Tracking testcases in running state
+08-23 15:11 root         INFO     Running testcases list is zero, we are done
+08-23 15:11 root         INFO     Generating junit xml output
+08-23 15:11 root         INFO     Entering collect_result for runId 112000001
+08-23 15:57 root         INFO     Want some blacksea julep?
+08-23 15:57 root         INFO     Entering run_flow
+08-23 15:57 root         INFO     sleeping between runs for 15 secs
+08-23 15:57 root         INFO     Entering run_flow
+08-23 15:57 root         INFO     sleeping between runs for 15 secs
+08-23 15:58 root         INFO     Entering run_flow
+08-23 15:58 root         INFO     sleeping between runs for 15 secs
+08-23 15:58 root         INFO     Entering run_flow
+08-23 15:58 root         INFO     sleeping between runs for 15 secs
+08-23 15:58 root         INFO     Tracking testcases in running state
+08-23 15:58 root         INFO     Waiting 120 seconds for next heartbeat
+08-23 16:00 root         INFO     Tracking testcases in running state
+08-23 16:00 root         INFO     Waiting 120 seconds for next heartbeat
+08-23 16:01 root         INFO     Want some blacksea julep?
+08-23 16:01 root         INFO     Entering run_flow
+08-23 16:01 root         INFO     sleeping between runs for 15 secs
+08-23 16:01 root         INFO     Entering run_flow
+08-23 16:01 root         INFO     sleeping between runs for 15 secs
+08-23 16:01 root         INFO     Entering run_flow
+08-23 16:01 root         INFO     sleeping between runs for 15 secs
+08-23 16:01 root         INFO     Entering run_flow
+08-23 16:01 root         INFO     sleeping between runs for 15 secs
+08-23 16:02 root         INFO     Tracking testcases in running state
+08-23 16:02 root         INFO     Waiting 120 seconds for next heartbeat
+08-23 16:04 root         INFO     Tracking testcases in running state
+08-23 16:04 root         INFO     Waiting 120 seconds for next heartbeat
+08-23 16:06 root         INFO     Tracking testcases in running state
+08-23 16:19 root         INFO     Running testcases list is zero, we are done
+08-23 16:19 root         INFO     Generating junit xml output
+08-23 16:19 root         INFO     Entering collect_result for runId 112000049
+08-23 16:19 root         INFO     Asserts for Testing if flow will fail
+08-23 16:19 root         INFO     Adding failed test
+08-23 16:19 root         INFO     Entering collect_result for runId 112000061
+08-23 16:19 root         INFO     Asserts for Testing other features
+08-23 16:19 root         INFO     Adding failed test
+08-23 16:19 root         INFO     Entering collect_result for runId 112000055
+08-23 16:19 root         INFO     Asserts for Testing if flow will succeed 
+08-23 16:19 root         INFO     Adding failed test
+08-23 16:19 root         INFO     Entering collect_result for runId 112000067
+08-23 16:19 root         INFO     Asserts for Testing result statuses
+08-23 16:19 root         INFO     Adding failed test
+08-23 16:19 root         INFO     Writing output to julepout.xml
+08-23 16:27 root         INFO     Want some blacksea julep?
+08-23 16:27 root         INFO     Entering run_flow
+08-23 16:27 root         INFO     sleeping between runs for 15 secs
+08-23 16:27 root         INFO     Tracking testcases in running state
+08-23 16:27 root         INFO     Running testcases list is zero, we are done
+08-23 16:27 root         INFO     Generating junit xml output
+08-23 16:27 root         INFO     Entering collect_result for runId 112000082
+08-23 16:27 root         INFO     Asserts for Testing if flow will succeed 
+08-23 16:27 root         INFO     Adding failed test
+08-23 16:27 root         INFO     Writing output to julepout.xml
+08-23 17:44 root         INFO     Want some blacksea julep?
+08-23 17:44 root         INFO     Entering run_flow
+08-23 17:44 root         INFO     sleeping between runs for 15 secs
+08-23 17:45 root         INFO     Entering run_flow
+08-23 17:45 root         INFO     sleeping between runs for 15 secs
+08-23 17:45 root         INFO     Entering run_flow
+08-23 17:45 root         INFO     sleeping between runs for 15 secs
+08-23 17:47 root         INFO     Entering run_flow
+08-23 17:47 root         INFO     sleeping between runs for 15 secs
+08-23 17:47 root         INFO     Tracking testcases in running state
+08-23 17:57 root         INFO     Waiting 120 seconds for next heartbeat
+08-23 17:57 root         INFO     Want some blacksea julep?
+08-23 17:59 root         INFO     Want some blacksea julep?
+08-23 17:59 root         INFO     Entering run_flow
+08-23 17:59 root         INFO     sleeping between runs for 15 secs
+08-23 18:00 root         INFO     Entering run_flow
+08-23 18:00 root         INFO     sleeping between runs for 15 secs
+08-23 18:00 root         INFO     Tracking testcases in running state
+08-23 18:01 root         INFO     Waiting 120 seconds for next heartbeat
+08-23 18:02 root         INFO     Want some blacksea julep?
+08-23 18:02 root         INFO     Entering run_flow
+08-23 18:02 root         INFO     sleeping between runs for 15 secs
+08-23 18:02 root         INFO     Entering run_flow
+08-23 18:02 root         INFO     sleeping between runs for 15 secs
+08-23 18:05 root         INFO     Want some blacksea julep?
+08-23 18:05 root         INFO     Entering run_flow
+08-23 18:05 root         INFO     sleeping between runs for 5 secs
+08-23 18:05 root         INFO     Entering run_flow
+08-23 18:05 root         INFO     sleeping between runs for 5 secs
+08-23 18:05 root         INFO     Tracking testcases in running state
+08-23 18:05 root         INFO     Waiting 20 seconds for next heartbeat
+08-23 18:05 root         INFO     Tracking testcases in running state
+08-23 18:05 root         INFO     Running testcases list is zero, we are done
+08-23 18:05 root         INFO     Generating junit xml output
+08-23 18:05 root         INFO     Entering collect_result for runId 112000173
+08-23 18:05 root         INFO     Asserts for Testing if flow will fail
+08-23 18:05 root         INFO     Adding failed test
+08-23 18:05 root         INFO     Entering collect_result for runId 112000183
+08-23 18:05 root         INFO     Asserts for Testing if flow will fail
+08-23 18:05 root         INFO     Adding failed test
+08-23 18:05 root         INFO     Writing output to julepout.xml
+08-23 18:13 root         INFO     Want some blacksea julep?
+08-23 18:14 root         INFO     Want some blacksea julep?
+08-23 18:14 root         INFO     Want some blacksea julep?
+08-23 18:15 root         INFO     Want some blacksea julep?
+08-23 18:15 root         INFO     Entering run_flow
+08-23 18:15 root         INFO     sleeping between runs for 5 secs
+08-23 18:15 root         INFO     Entering run_flow
+08-23 18:15 root         INFO     sleeping between runs for 5 secs
+08-23 18:15 root         INFO     Tracking testcases in running state
+08-23 18:15 root         INFO     Waiting 20 seconds for next heartbeat
+08-23 18:16 root         INFO     Tracking testcases in running state
+08-23 18:16 root         INFO     Running testcases list is zero, we are done
+08-23 18:16 root         INFO     Generating junit xml output
+08-23 18:16 root         INFO     Entering collect_result for runId 112000193
+08-23 18:16 root         INFO     Asserts for Testing if flow will fail
+08-23 18:16 root         INFO     Adding failed test
+08-23 18:16 root         INFO     Entering collect_result for runId 112000203
+08-23 18:16 root         INFO     Asserts for Testing if flow will fail
+08-23 18:16 root         INFO     Adding failed test
+08-23 18:16 root         INFO     Writing output to julepout.xml
+08-23 18:19 root         INFO     Want some blacksea julep?
+08-23 18:19 root         INFO     Entering run_flow
+08-23 18:20 root         INFO     sleeping between runs for 5 secs
+08-23 18:20 root         INFO     Entering run_flow
+08-23 18:20 root         INFO     sleeping between runs for 5 secs
+08-23 18:20 root         INFO     Tracking testcases in running state
+08-23 18:20 root         INFO     Waiting 20 seconds for next heartbeat
+08-23 18:20 root         INFO     Tracking testcases in running state
+08-23 18:20 root         INFO     Running testcases list is zero, we are done
+08-23 18:20 root         INFO     Generating junit xml output
+08-23 18:20 root         INFO     Entering collect_result for runId 112000213
+08-23 18:20 root         INFO     Asserts for Testing if flow will fail
+08-23 18:20 root         INFO     Adding failed test
+08-23 18:20 root         INFO     Entering collect_result for runId 112000223
+08-23 18:20 root         INFO     Asserts for Testing if flow will fail
+08-23 18:20 root         INFO     Adding failed test
+08-23 18:20 root         INFO     Writing output to julepout.xml
+08-23 18:23 root         INFO     Want some blacksea julep?
+08-23 18:23 root         INFO     Entering run_flow
+08-23 18:23 root         INFO     sleeping between runs for 5 secs
+08-23 18:23 root         INFO     Entering run_flow
+08-23 18:23 root         INFO     sleeping between runs for 5 secs
+08-23 18:23 root         INFO     Tracking testcases in running state
+08-23 18:23 root         INFO     Waiting 20 seconds for next heartbeat
+08-23 18:23 root         INFO     Tracking testcases in running state
+08-23 18:24 root         INFO     Running testcases list is zero, we are done
+08-23 18:24 root         INFO     Generating junit xml output
+08-23 18:24 root         INFO     Entering collect_result for runId 112000233
+08-23 18:24 root         INFO     Asserts for Testing if flow will fail
+08-23 18:24 root         INFO     Adding succesfull test
+08-23 18:24 root         INFO     Entering collect_result for runId 112000243
+08-23 18:24 root         INFO     Asserts for Testing if flow will fail
+08-23 18:24 root         INFO     Adding failed test
+08-23 18:24 root         INFO     Writing output to julepout.xml
+08-23 18:26 root         INFO     Want some blacksea julep?
+08-23 18:26 root         INFO     Entering run_flow
+08-23 18:26 root         INFO     sleeping between runs for 5 secs
+08-23 18:26 root         INFO     Entering run_flow
+08-23 18:26 root         INFO     sleeping between runs for 5 secs
+08-23 18:26 root         INFO     Tracking testcases in running state
+08-23 18:26 root         INFO     Waiting 20 seconds for next heartbeat
+08-23 18:26 root         INFO     Tracking testcases in running state
+08-23 18:26 root         INFO     Running testcases list is zero, we are done
+08-23 18:26 root         INFO     Generating junit xml output
+08-23 18:26 root         INFO     Entering collect_result for runId 112000253
+08-23 18:26 root         INFO     Asserts for Testing if flow will fail
+08-23 18:26 root         INFO     Adding succesfull test
+08-23 18:26 root         INFO     Entering collect_result for runId 112000263
+08-23 18:26 root         INFO     Asserts for Testing if flow will fail
+08-23 18:26 root         INFO     Adding succesfull test
+08-23 18:26 root         INFO     Writing output to julepout.xml
+09-08 16:09 root         INFO     Want some blacksea julep?
+09-08 16:09 root         INFO     Entering run_flow
+09-08 16:09 root         INFO     sleeping between runs for 5 secs
+09-08 16:09 root         INFO     Want some blacksea julep?
+09-08 16:09 root         INFO     Entering run_flow
+09-08 16:09 root         INFO     sleeping between runs for 5 secs
+09-08 16:10 root         INFO     Entering run_flow
+09-08 16:10 root         INFO     sleeping between runs for 5 secs
+09-08 16:10 root         INFO     Tracking testcases in running state
+09-08 16:10 root         INFO     Waiting 20 seconds for next heartbeat
+09-08 16:10 root         INFO     Tracking testcases in running state
+09-08 16:10 root         INFO     Running testcases list is zero, we are done
+09-08 16:10 root         INFO     Generating junit xml output
+09-08 16:10 root         INFO     Entering collect_result for runId 112000636
+09-08 16:10 root         INFO     Asserts for Testing with input1
+09-08 16:10 root         INFO     Adding succesfull test
+09-08 16:10 root         INFO     Entering collect_result for runId 112000646
+09-08 16:10 root         INFO     Asserts for Testing with input 2
+09-08 16:10 root         INFO     Adding succesfull test
+09-08 16:10 root         INFO     Writing output to julepout.xml
+09-11 12:02 root         INFO     Want some blacksea julep?
+09-11 12:02 root         INFO     Entering run_flow
