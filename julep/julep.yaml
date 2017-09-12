@@ -7,7 +7,7 @@
   flows: 
     - 
       uuid: "965fab49-2b63-4a69-b8aa-847b1f2bf779"
-      name : "Testing with input1"
+      name : "Testing with vaild Input"
       inputs: 
         host: "127.0.0.1"
       assert: 
@@ -16,10 +16,10 @@
 
     - 
       uuid: "965fab49-2b63-4a69-b8aa-847b1f2bf779"
-      name : "Testing with input 2"
+      name : "Testing with invalid input"
       inputs: 
-        host: "localhost"
+        host: "hello"
       assert: 
         executionSummary: 
-          resultStatusType: "RESOLVED"
+          resultStatusType: "ERROR"
 
